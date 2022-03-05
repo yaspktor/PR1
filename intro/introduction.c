@@ -100,7 +100,7 @@ int main(void){
     char napis [10];
     printf("Podaj date w formacie xx xx xxxx lub xx/xx/xxxx lub xx.xxx.xxxx\n");
     scanf("%s",&napis);
-    printf("%7s\n",napis);
+    printf("%s\n",napis);
     rok = napis[6]-'0';
     
     printf("rok: %d\n",rok); 
