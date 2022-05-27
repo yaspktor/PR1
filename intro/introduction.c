@@ -94,12 +94,12 @@ int main(void){
     
 
     int rok;
-    int miesiac;
-    int dzien;
+    /*int miesiac;*/
+    /*int dzien;*/
     
     char napis [10];
     printf("Podaj date w formacie xx xx xxxx lub xx/xx/xxxx lub xx.xxx.xxxx\n");
-    scanf("%s",&napis);
+    scanf("%s",napis);
     printf("%s\n",napis);
     rok = napis[6]-'0';
     
