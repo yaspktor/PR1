@@ -19,8 +19,8 @@ char* fun(char *x)
 
 int main(int args, char *agrv[])
 {
-	char tab[] = "SIeMAssdfdsf4t34dsdsJHKJHKdsSD";
-	int n = strlen(tab);
+	char tab[] = "SIeMAss";
+	
 	char *x;
 	char *arr;
 	int i = 0;

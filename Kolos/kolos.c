@@ -51,6 +51,7 @@ void zapisz(int a,char *(*fun)())
     char* cos;
     cos=fun(a);
     printf("%s",cos);
+    free(cos);
 }
 int main()
 {
