@@ -21,7 +21,7 @@ int main(void) {
   porownaj_ogr(s1,s3,3));
   dolacz_ogr(s3, s1, 2); printf("%s\n", s3);
   dolacz_ogr(s3, s1, 6); printf("%s\n", s3);
-  printf("dlugo´s´c = %d\n", dlugosc(s3));
+  printf("dlugoï¿½sï¿½c = %d\n", dlugosc(s3));
   return 0;
 }
 
