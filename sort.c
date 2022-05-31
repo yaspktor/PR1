@@ -7,7 +7,7 @@ void swap(int* x, int* y){
     *x = *y;
     *y = t;
 
-}
+}shasaki Ci w Ryj
 
 
 
